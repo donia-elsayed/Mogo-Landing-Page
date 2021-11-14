@@ -1,0 +1,120 @@
+@media screen and (max-width:576px){
+    h2:after{
+        top:35%;
+    }
+    .carousel-indicators div,
+    .carousel-indicators div span{
+        font-size: 0.8rem !important;
+        text-transform: lowercase !important;
+    }
+    .carousel__item h1{
+        display:none;
+    }
+    .carousel__item h4{
+        width:55%;
+        margin: 0 auto;
+        padding:3rem 0;
+    }
+    .carousel__item h4:after{
+        content: "";
+        width:5rem;
+        height:3px;
+        position: absolute;
+        background-color: #fff;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 2.5rem;
+    }
+    .unique-design{
+        height: 70vh;
+    }
+    .unique-design__header{
+        color:white;
+    }
+    .unique-design__header h2:after{
+        background-color:white;
+        top:100%;
+    }
+    .unique__overlay{
+        background: transparent;
+    }
+    .unique__white__img{
+        display: none;
+    }
+    .service__we-do img{
+        margin-bottom: 1.5rem;
+    }
+    .carousel__feedback__content{
+        margin-top: 1rem;
+    }
+    .carousel__feedback__content h4::before {
+        left: 15%;
+    }
+    .our-work{
+        padding:3rem 0;
+    }
+    .feedback__img{
+        width:50%;
+    }
+    .happy-clients{
+        height: 140vh !important;
+    }
+
+}
+@media screen and (min-width: 577px) and (max-width:776px){
+    .unique-design{
+        height: 80vh;
+    }
+    .unique__white__img{
+        display: none;
+    }
+    .carousel__item h1{
+        font-size:6rem;
+        width:90%;
+    }
+    .happy-clients{
+        height: 170vh !important;
+    }
+    .happy-clients__content span:after{
+        top:30%;
+        left:12%;
+    }
+    .service__we-do i{
+        font-size: 1rem;
+    }
+    .service__we-do p{
+        line-height: 1;
+    }
+}
+@media screen and (min-width: 777px) and (max-width:1110px){
+    .unique-design{
+        height: 100vh;
+    }
+    .unique__white__img{
+        display: none;
+    }
+    .unique-design__header h2:after{
+        top:100%;
+    }
+    .carousel__item h1{
+        font-size:5.5rem;
+    }
+    .accordion-body p{
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+}
+@media screen and (min-width:1111px){
+    .unique-design{
+        height: 110vh;
+    }
+    .unique-design__header h2:after{
+        top:100%;
+    }
+    .accordion-body p{
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+   
+}
